@@ -1,0 +1,12 @@
+*{
+  background-color: rgb(78, 43, 139);
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: 50px repeat(3, 80px) 60px;
+}
+.grid div{
+  background-color: aquamarine;
+  margin: 10px;
+}
